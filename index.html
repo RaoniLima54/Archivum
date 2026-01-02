@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="PT-BR ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Outfit:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>Archivum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <div class="conteiner">
+
+        <div class="header">
+            <img src="/perfil/Raoni.jpg" alt="Raoni's Profile Picture" class="perfil" />
+
+            <h1 class="Nome">Raoni Lima </h1>
+        </div>
+
+        <div class="movies">
+
+            <h2 class="link-filmes">
+                <a href="filmes.html">filmes</a>
+            </h2>
+
+            <div class="carousel-wrapper">
+                <button class="nav left" onclick="scrollCarousel(this, -1)">❮</button>
+                <div class="carousel">
+
+                    
+                    
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Herege.png">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Herege</h3>
+                            <p>visto : 01/01/2026</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Watchmen.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Watchamen</h3>
+                            <p>visto : 01/01/2026</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Bad boys até o fim.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Bad Boys - Até o fim</h3>
+                            <p>visto : 27/12/2025</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Resgate implacavel.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Resgate implacavel</h3>
+                            <p>visto : 27/12/2025</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/A grande inundação.jpg">
+                        <div class="info">
+                            <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                            <h3>A Grande inundação</h3>
+                            <p>visto : 26/12/2025</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Vivo ou Morto Um Mistério Knives Out.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Vivo ou Morto - Um Mistério Knives Out</h3>
+                            <p>Visto : 25/12/2025</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/De volta ao jogo.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>De volta ao jogo</h3>
+                            <p>Ação • Crime</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Batman Begins</h3>
+                            <p>Ação • Crime</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/interestellar.png">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Interstellar</h3>
+                            <p>Ficção • Drama</p>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Parasita</h3>
+                            <p>Visto : indeterminado</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/Vingadores Guerra infinita.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Vingadores Guerra Infinita</h3>
+                            <p>Ação • Ficção</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/filmes/O Regresso.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>O Regresso</h3>
+                            <p>Drama</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <button class="nav right" onclick="scrollCarousel(this, 1)">❯</button>
+            </div>
+
+        </div>
+
+        <div class="Series">
+
+            <h2 class="link-filmes">
+                <a href="series.html">series</a>
+            </h2>
+
+            <div class="carousel-wrapper">
+                <button class="nav left" onclick="scrollCarousel(this, -1)">❮</button>
+                <div class="carousel">
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/Dexter.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Dexter</h3>
+                            <p>Crime</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/Dois Homens e meio.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Dois Homens e meio</h3>
+                            <p>Comedia</p>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/The Office.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>The Office</h3>
+                            <p>Comedia</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/Como eu conheci sua mãe.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Como eu conheci sua mãe</h3>
+                            <p>Comedia</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/Breaking bad.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Breaking Bad</h3>
+                            <p>Drama</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/Todo mundo odeia o Chris.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>Todo mundo odeia o Chris</h3>
+                            <p>Comedia</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card" onclick="expandCard(this)">
+                        <img src="/series/The Big Bang Theory.jpg">
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">100%</span>
+                        <div class="info">
+                            <h3>The Big Bang Theory</h3>
+                            <p>Comedia</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="nav right" onclick="scrollCarousel(this, 1)">❯</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Archivum. All rights reserved.</p>
+        <p>developed by Raoni Lima</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
